@@ -1,0 +1,10 @@
+.jumbotron {
+  background-image: url("https://images.pexels.com/photos/1121796/pexels-photo-1121796.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: right -200px;
+  height: 700px;
+}
+
+.j-box {
+  background-color: rgba(255,255,255,0.5);;
+  border-radius: 5px;
+}
