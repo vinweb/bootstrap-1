@@ -1,7 +1,20 @@
 .jumbo-head {
   background-image: url("https://images.pexels.com/photos/1121796/pexels-photo-1121796.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-position: right -200px;
-  height: 700px;
+  height: 600px;
+}
+
+@media (min-width: 992px) {
+  .jumbo-head {
+    background-position: center -200px;
+    height: 700px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .jumbo-head {
+    background-position: right -200px;
+  }
 }
 
 .j-box {
@@ -12,4 +25,12 @@
 .card {
   max-width: 18rem;
   border: none;
+}
+
+.footer {
+  background-color: #343a40;
+}
+
+.jumbotron {
+  margin-bottom: 0;
 }
